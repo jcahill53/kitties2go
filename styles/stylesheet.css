@@ -8,16 +8,16 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size:90% ;
     line-height: 175%;
 
 }
 
 header div {
     background-color: rgb(71, 131, 199);
-    height: 250px;
+    /* height: 250px; */
     color: white;
-    padding: 50px 0px;
+    padding: 40px 0px;
 }
 
 header div p {
@@ -33,18 +33,20 @@ nav {
     height: 50px;
     line-height: 50px;
     background-color: lightgray;
+    
 }
 
 nav ul {
-    margin-left: 175px;
+    /* margin-left:50px ; */
     text-decoration: none;
-
+    margin-left:10%;
 }
 
 nav li {
-    margin-left: 15px;
+    /* margin-left: 15px; */
     float: left;
     list-style-type: none;
+    margin-left:15px;
 }
 
 nav a {
@@ -65,16 +67,18 @@ article {
 }
 
 main {
-    width: 580px;
+    width: 50%;
     float: left;
-    margin-left: 175px;
+    margin-left:10%;
     padding: 20px;
+    clear:left;
 }
 
 aside {
-    width: 360px;
+    width: 30%;
     float: right;
-    margin-right: 175px;
+    margin-right: 10%;
+    margin-bottom:5%;
     padding: 0px 20px;
 }
 
@@ -83,6 +87,7 @@ footer {
     clear: both;
     text-align: center;
     color: white;
+ 
 }
 
 footer img {
@@ -120,22 +125,22 @@ footer a:hover {
 
 footer p {
     color: white;
-    margin: 0px 400px;
+    margin: 0px 30%;
     padding: 20px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 300%;
     padding-top: 50px;
     padding-bottom: 20px;
-    margin-left: 195px;
+    margin-left: 11%;
     font-weight: bold;
 }
 
 
 h3 {
     padding-bottom: 10px;
-    font-size: 16px;
+    font-size: 120%;
 }
 
 h1,
@@ -149,8 +154,8 @@ p {
 }
 
 header div p {
-    margin-left: 195px;
-    font-size: 26px;
+    margin-left: 11%;
+    font-size: 200%;
     font-style: italic;
 }
 
